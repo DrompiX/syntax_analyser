@@ -1,0 +1,216 @@
+{
+  "file_input": [
+    {
+      "stmt": {
+        "simple_stmt": [
+          {
+            "small_stmt": {
+              "import_stmt": {
+                "import_name": [
+                  {
+                    "Type": 8,
+                    "Value": "import"
+                  },
+                  {
+                    "dotted_as_names": {
+                      "dotted_as_name": {
+                        "dotted_name": {
+                          "Type": 40,
+                          "Value": "json"
+                        }
+                      }
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "Type": 39,
+            "Value": "\n"
+          }
+        ]
+      }
+    },
+    {
+      "stmt": {
+        "simple_stmt": [
+          {
+            "small_stmt": {
+              "expr_stmt": [
+                {
+                  "testlist_star_expr": {
+                    "test": {
+                      "or_test": {
+                        "and_test": {
+                          "not_test": {
+                            "comparison": {
+                              "expr": {
+                                "xor_expr": {
+                                  "and_expr": {
+                                    "shift_expr": {
+                                      "arith_expr": {
+                                        "term": {
+                                          "factor": {
+                                            "power": {
+                                              "atom_expr": {
+                                                "atom": {
+                                                  "Type": 40,
+                                                  "Value": "a"
+                                                }
+                                              }
+                                            }
+                                          }
+                                        }
+                                      }
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                },
+                {
+                  "Type": 58,
+                  "Value": "="
+                },
+                {
+                  "testlist_star_expr": {
+                    "test": {
+                      "or_test": {
+                        "and_test": {
+                          "not_test": {
+                            "comparison": {
+                              "expr": {
+                                "xor_expr": {
+                                  "and_expr": {
+                                    "shift_expr": {
+                                      "arith_expr": [
+                                        {
+                                          "term": {
+                                            "factor": {
+                                              "power": {
+                                                "atom_expr": {
+                                                  "atom": [
+                                                    {
+                                                      "Type": 52,
+                                                      "Value": "("
+                                                    },
+                                                    {
+                                                      "testlist_comp": {
+                                                        "test": {
+                                                          "or_test": {
+                                                            "and_test": {
+                                                              "not_test": {
+                                                                "comparison": {
+                                                                  "expr": {
+                                                                    "xor_expr": {
+                                                                      "and_expr": {
+                                                                        "shift_expr": {
+                                                                          "arith_expr": {
+                                                                            "term": [
+                                                                              {
+                                                                                "factor": {
+                                                                                  "power": {
+                                                                                    "atom_expr": {
+                                                                                      "atom": {
+                                                                                        "Type": 2,
+                                                                                        "Value": "1"
+                                                                                      }
+                                                                                    }
+                                                                                  }
+                                                                                }
+                                                                              },
+                                                                              {
+                                                                                "Type": 51,
+                                                                                "Value": "*"
+                                                                              },
+                                                                              {
+                                                                                "factor": {
+                                                                                  "power": {
+                                                                                    "atom_expr": {
+                                                                                      "atom": {
+                                                                                        "Type": 2,
+                                                                                        "Value": "2"
+                                                                                      }
+                                                                                    }
+                                                                                  }
+                                                                                }
+                                                                              }
+                                                                            ]
+                                                                          }
+                                                                        }
+                                                                      }
+                                                                    }
+                                                                  }
+                                                                }
+                                                              }
+                                                            }
+                                                          }
+                                                        }
+                                                      }
+                                                    },
+                                                    {
+                                                      "Type": 40,
+                                                      "Value": "d"
+                                                    },
+                                                    {
+                                                      "Type": 53,
+                                                      "Value": ")"
+                                                    }
+                                                  ]
+                                                }
+                                              }
+                                            }
+                                          }
+                                        },
+                                        {
+                                          "Type": 66,
+                                          "Value": "+"
+                                        },
+                                        {
+                                          "term": {
+                                            "factor": {
+                                              "power": {
+                                                "atom_expr": {
+                                                  "atom": {
+                                                    "Type": 2,
+                                                    "Value": "1"
+                                                  }
+                                                }
+                                              }
+                                            }
+                                          }
+                                        }
+                                      ]
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "Type": 39,
+            "Value": "\n"
+          }
+        ]
+      }
+    },
+    {
+      "Type": -1,
+      "Value": "<EOF>"
+    }
+  ]
+}
