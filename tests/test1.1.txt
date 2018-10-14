@@ -1,0 +1,4 @@
+import json
+&^$H
+a = (1 * 2) + 1
+print(def abc())

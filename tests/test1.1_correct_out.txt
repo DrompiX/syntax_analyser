@@ -1,0 +1,3 @@
+Syntax errors were found
+line 2:0 extraneous input '&' expecting {<EOF>, STRING, NUMBER, 'def', 'return', 'raise', 'from', 'import', 'global', 'nonlocal', 'assert', 'if', 'while', 'for', 'try', 'with', 'lambda', 'not', 'None', 'True', 'False', 'class', 'yield', 'del', 'pass', 'continue', 'break', 'async', 'await', NEWLINE, NAME, '...', '*', '(', '[', '+', '-', '~', '{', '@'}
+line 4:6 extraneous input 'def' expecting {STRING, NUMBER, 'lambda', 'not', 'None', 'True', 'False', 'await', NAME, '...', '*', '(', ')', '**', '[', '+', '-', '~', '{'}
