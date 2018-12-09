@@ -1,7 +1,6 @@
 ## Syntax analyzer for Python 3.6
-Done by Dmitry Turenko, Amir Nazyrov BS3-DS2
 
-We wrote the syntax analyzer for programming language Python 3.6 on the programming language Python 3.7 for all programming language structures and using additional tool ANTLR4. More information about ANTLR you can find on the website [here](http://www.antlr.org/). <br>
+We wrote the syntax analyzer for programming language Python 3.6 on the programming language Python 3.6 for all programming language structures and using additional tool ANTLR4. More information about ANTLR you can find on the website [here](http://www.antlr.org/). <br>
 > Full grammar for python can be found in src/Python3.g4.
 
 
