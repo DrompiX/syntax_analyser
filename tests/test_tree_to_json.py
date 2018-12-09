@@ -15,8 +15,6 @@ class TestTreeToJson(TestCase):
             correct_output = correct_out.read().replace("\\r\\n", '\\n')
             self.assertEqual(correct_output, json_result)  
             print('[Test 6] - PASSED')  
-        # self.assertEqual("Syntax errors were found", json_result)
-        # print('[Tree to JSON Test 1] - PASSED')
 
 
     def test_tree_to_json2(self):

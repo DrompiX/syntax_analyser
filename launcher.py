@@ -31,7 +31,8 @@ def walk(subtree, rule_names):
     """
     if isinstance(subtree, TerminalNodeImpl):
         token = subtree.getSymbol()
-        return {'Type': token.type, 'Value': token.text}
+        token_name = Python3Parser.symbolicNames[token.type]
+        return {'Type': token_name, 'Value': token.text}
     else:
         child_nodes = []
         name = rule_names[subtree.getRuleIndex()]

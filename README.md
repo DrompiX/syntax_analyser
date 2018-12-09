@@ -1,7 +1,8 @@
 ## Syntax analyzer for Python 3.6
-Done by Dmitry Turenko BS3-DS2, Amir Nazyrov BS2-DS2
+Done by Dmitry Turenko, Amir Nazyrov BS3-DS2
 
-We wrote the syntax analyzer for programming language Python 3.6 on the programming language Python 3.7 for all programming language structures and using additional tool ANTLR4. More information about ANTLR you can find on the website [here](http://www.antlr.org/). Grammar is inside the file \<project_folder\>/src/Python3.g4.
+We wrote the syntax analyzer for programming language Python 3.6 on the programming language Python 3.7 for all programming language structures and using additional tool ANTLR4. More information about ANTLR you can find on the website [here](http://www.antlr.org/). <br>
+> Full grammar for python can be found in src/Python3.g4.
 
 
 #### Installation of additional libraries
@@ -9,14 +10,10 @@ We wrote the syntax analyzer for programming language Python 3.6 on the programm
 1. You should install Python 3.7 from [official website](https://www.python.org/downloads/)
 
 2. Also you should install additional library antlr4-python3-runtime by running command: 
-`pip3 install antlr4-python3-runtime`
+`pip3 install -r requirements.txt`
 
 #### Program start
 
 1. You should put python 3 code inside `in.txt` (remember, in the end of python file should be new line);
 2. To run program you should write `python3 launcher.py` (can be `python`) in terminal;
 3. Output can be found inside `out.txt`. It has json structure and in case there were no syntax errors there will be correct json-like tree, otherwise it will contain report about errors.
-
-<!--Run test
-        
-Also we write some tests. To run tests you should any .py file in the directory tests.-->

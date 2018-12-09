@@ -8,14 +8,14 @@
               "import_stmt": {
                 "import_name": [
                   {
-                    "Type": 8,
+                    "Type": "IMPORT",
                     "Value": "import"
                   },
                   {
                     "dotted_as_names": {
                       "dotted_as_name": {
                         "dotted_name": {
-                          "Type": 40,
+                          "Type": "NAME",
                           "Value": "sys"
                         }
                       }
@@ -26,7 +26,7 @@
             }
           },
           {
-            "Type": 39,
+            "Type": "NEWLINE",
             "Value": "\n"
           }
         ]
@@ -55,7 +55,7 @@
                                             "power": {
                                               "atom_expr": {
                                                 "atom": {
-                                                  "Type": 40,
+                                                  "Type": "NAME",
                                                   "Value": "a"
                                                 }
                                               }
@@ -75,7 +75,7 @@
                   }
                 },
                 {
-                  "Type": 58,
+                  "Type": "ASSIGN",
                   "Value": "="
                 },
                 {
@@ -96,7 +96,7 @@
                                               "power": {
                                                 "atom_expr": {
                                                   "atom": {
-                                                    "Type": 2,
+                                                    "Type": "NUMBER",
                                                     "Value": "1"
                                                   }
                                                 }
@@ -104,7 +104,7 @@
                                             }
                                           },
                                           {
-                                            "Type": 51,
+                                            "Type": "STAR",
                                             "Value": "*"
                                           },
                                           {
@@ -112,7 +112,7 @@
                                               "power": {
                                                 "atom_expr": {
                                                   "atom": {
-                                                    "Type": 2,
+                                                    "Type": "NUMBER",
                                                     "Value": "2"
                                                   }
                                                 }
@@ -136,7 +136,7 @@
             }
           },
           {
-            "Type": 39,
+            "Type": "NEWLINE",
             "Value": "\n"
           }
         ]
@@ -165,14 +165,14 @@
                                             "atom_expr": [
                                               {
                                                 "atom": {
-                                                  "Type": 40,
+                                                  "Type": "NAME",
                                                   "Value": "print"
                                                 }
                                               },
                                               {
                                                 "trailer": [
                                                   {
-                                                    "Type": 52,
+                                                    "Type": "OPEN_PAREN",
                                                     "Value": "("
                                                   },
                                                   {
@@ -193,7 +193,7 @@
                                                                                 "power": {
                                                                                   "atom_expr": {
                                                                                     "atom": {
-                                                                                      "Type": 40,
+                                                                                      "Type": "NAME",
                                                                                       "Value": "a"
                                                                                     }
                                                                                   }
@@ -214,7 +214,7 @@
                                                     }
                                                   },
                                                   {
-                                                    "Type": 53,
+                                                    "Type": "CLOSE_PAREN",
                                                     "Value": ")"
                                                   }
                                                 ]
@@ -238,14 +238,14 @@
             }
           },
           {
-            "Type": 39,
+            "Type": "NEWLINE",
             "Value": "\n"
           }
         ]
       }
     },
     {
-      "Type": -1,
+      "Type": "DEDENT",
       "Value": "<EOF>"
     }
   ]
